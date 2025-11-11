@@ -51,6 +51,7 @@ public class MaquinaExpendedoraSimple {
      */
     public void introducirDinero(int cantidadIntroducida) {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
+        
 
     } 
     
@@ -86,4 +87,9 @@ public class MaquinaExpendedoraSimple {
         balanceClienteActual = 0;
     
     }
+    
+    public void vaciarDepositoDinero() {
+        totalDineroAcumulado = 0;
+    }
+    
 }
