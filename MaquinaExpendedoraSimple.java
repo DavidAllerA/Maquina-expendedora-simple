@@ -58,6 +58,12 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     
+    public void reducirPrecioBillete(int descuento) {
+        precioBillete = precioBillete - descuento;
+        
+    }
+      
+    
     public void setPrecioBillete(int precioDelBillete) {
         precioBillete = precioDelBillete;
     }
